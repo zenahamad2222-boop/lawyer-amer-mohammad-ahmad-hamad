@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    id="page-description"
+    name="description"
+    content="الموقع الرسمي للمحامي عامر محمد حمد لتقديم الاستشارات والخدمات القانونية للأفراد والشركات."
+  >
+
+  <title>المحامي عامر محمد أحمد حمد </title>
+
+  <!-- Google Font -->
+  <link
+    rel="oogleapis.com
+
+  <link
+    rel="preconnect"
+    href    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&<!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    :root {
+      --brown-dark: #5f4b32;
+      --brown-medium: #7c6343;
+      --brown-light: #9a7b50;
+
+      --beige-dark: #c5a878;
+      --beige-medium: #dec8a3;
+      --beige-light: #f2e5cf;
+      --beige-extra-light: #faf3e7;
+
+      --cream: #fffaf1;
+      --white: #ffffff;
+
+      --text-color: #453729;
+      --muted-color: #776757;
+      --border-color: #decaa7;
+
+      --whatsapp-color: #477a55;
+
+      --shadow:
+        0 10px 30px rgba(95, 75, 50, 0.15);
+
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Cairo", Tahoma, Arial, sans-serif;
+      line-height: 1.8;
+      background-color: var(--beige-light);
+      color: var(--text-color);
+      transition: opacity 0.2s ease;
+    }
+
+    body.language-changing {
+      opacity: 0.9;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button,
+    a {
+      font-family: inherit;
+    }
+
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid rgba(197, 168, 120, 0.55);
+      outline-offset: 4px;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1150px, calc(100% - 32px));
+      margin-inline: auto;
+    }
+
+    /* =========================
+       Header
+    ========================= */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: rgba(95, 75, 50, 0.97);
+      color: var(--white);
+      box-shadow: 0 4px 18px rgba(69, 55, 41, 0.25);
+      backdrop-filter: blur(10px);
+    }
+
+    .header-content {
+      min-height: 82px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      border: 2px solid var(--beige-dark);
+      border-radius: 50%;
+      background-color: var(--brown-dark);
+      color: var(--beige-light);
+      font-size: 1.5rem;
+    }
+
+    .brand-name {
+      margin: 0;
+      color: var(--white);
+      font-size: clamp(1rem, 2.5vw, 1.35rem);
+      line-height: 1.4;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .main-nav a {
+      padding: 9px 12px;
+      border-radius: 8px;
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 600;
+      transition:
+        color 0.25s ease,
+        background-color 0.25s ease;
+    }
+
+    .main-nav a:hover {
+      color: var(--brown-dark);
+      background-color: var(--beige-dark);
+    }
+
+    .language-button {
+      min-width: 95px;
+      padding: 9px 15px;
+      margin-inline-start: 8px;
+      border: 1px solid var(--beige-dark);
+      border-radius: 8px;
+      background-color: var(--beige-light);
+      color: var(--brown-dark);
+      font-weight: 700;
+      cursor: pointer;
+      transition:
+        color 0.25s ease,
+        background-color 0.25s ease,
+        transform 0.25s ease;
+    }
+
+    .language-button:hover {
+      color: var(--white);
+      background-color: var(--brown-light);
+      transform: translateY(-2px);
+    }
+
+    /* =========================
+       Hero section
+    ========================= */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 80px 0;
+      background:
+        radial-gradient(
+          circle at top right,
+          rgba(255, 250, 241, 0.3),
+          transparent 35%
+        ),
+        linear-gradient(
+          135deg,
+          var(--brown-dark),
+          var(--beige-dark)
+        );
+      color: var(--white);
+    }
+
+    .hero::after {
+      position: absolute;
+      bottom: -110px;
+      left: -110px;
+      width: 300px;
+      height: 300px;
+      border: 45px solid rgba(255, 250, 241, 0.08);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(230px, 340px) 1fr;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .lawyer-image-wrapper {
+      width: min(310px, 100%);
+      margin-inline: auto;
+    }
+
+    .lawyer-image {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border: 7px solid var(--beige-light);
+      border-radius: 50%;
+      background-color: var(--cream);
+      box-shadow: 0 18px 45px rgba(69, 55, 41, 0.33);
+    }
+
+    .image-fallback {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      display: none;
+      place-items: center;
+      border: 7px solid var(--beige-light);
+      border-radius: 50%;
+      background-color: var(--cream);
+      color: var(--brown-dark);
+      font-size: 6rem;
+      box-shadow: 0 18px 45px rgba(69, 55, 41, 0.33);
+    }
+
+    .hero-text {
+      text-align: start;
+    }
+
+    .hero-label {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 5px 15px;
+      border: 1px solid rgba(255, 250, 241, 0.55);
+      border-radius: 40px;
+      background-color: rgba(255, 250, 241, 0.14);
+      color: var(--cream);
+      font-weight: 600;
+    }
+
+    .hero h2 {
+      max-width: 800px;
+      margin: 0 0 18px;
+      color: var(--white);
+      font-size: clamp(2rem, 5vw, 3.45rem);
+      line-height: 1.3;
+    }
+
+    .hero-description {
+      max-width: 760px;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.92);
+      font-size: 1.04rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 28px;
+    }
+
+    .button {
+      min-height: 50px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 9px;
+      padding: 10px 22px;
+      border: 2px solid transparent;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: 700;
+      cursor: pointer;
+      transition:
+        transform 0.25s ease,
+        background-color 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+    }
+
+    .button-primary {
+      background-color: var(--beige-light);
+      color: var(--brown-dark);
+    }
+
+    .button-primary:hover {
+      background-color: var(--cream);
+    }
+
+    .button-outline {
+      border-color: rgba(255, 255, 255, 0.8);
+      background-color: transparent;
+      color: var(--white);
+    }
+
+    .button-outline:hover {
+      border-color: var(--beige-light);
+      background-color: rgba(255, 255, 255, 0.12);
+      color: var(--white);
+    }
+
+    /* =========================
+       General sections
+    ========================= */
+
+    .section {
+      padding: 75px 0;
+    }
+
+    .section-light {
+      background-color: var(--beige-extra-light);
+    }
+
+    .section-cream {
+      background-color: var(--cream);
+    }
+
+    .section-heading {
+      max-width: 760px;
+      margin: 0 auto 42px;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      position: relative;
+      margin: 0 0 16px;
+      padding-bottom: 14px;
+      color: var(--brown-dark);
+      font-size: clamp(1.7rem, 4vw, 2.35rem);
+    }
+
+    .section-heading h2::after {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 65px;
+      height: 4px;
+      border-radius: 4px;
+      background-color: var(--beige-dark);
+      content: "";
+      transform: translateX(-50%);
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: var(--muted-color);
+    }
+
+    /* =========================
+       About
+    ========================= */
+
+    .about-card {
+      max-width: 900px;
+      margin-inline: auto;
+      padding: 34px;
+      border: 1px solid var(--border-color);
+      border-inline-start: 6px solid var(--brown-light);
+      border-radius: var(--radius);
+      background-color: var(--cream);
+      box-shadow: var(--shadow);
+    }
+
+    .about-card p {
+      margin: 0;
+      color: var(--text-color);
+      text-align: start;
+    }
+
+    /* =========================
+       Services
+    ========================= */
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .service-card {
+      padding: 30px 22px;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      background-color: var(--cream);
+      text-align: center;
+      box-shadow: var(--shadow);
+      transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+    }
+
+    .service-card:hover {
+      border-color: var(--brown-light);
+      transform: translateY(-7px);
+      box-shadow: 0 16px 38px rgba(95, 75, 50, 0.2);
+    }
+
+    .service-icon {
+      width: 68px;
+      height: 68px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 19px;
+      border-radius: 50%;
+      background-color: var(--brown-dark);
+      color: var(--beige-light);
+      font-size: 1.55rem;
+    }
+
+    .service-card h3 {
+      margin: 0 0 10px;
+      color: var(--brown-dark);
+      font-size: 1.15rem;
+    }
+
+    .service-card p {
+      margin: 0;
+      color: var(--muted-color);
+      font-size: 0.94rem;
+    }
+
+    /* =========================
+       Contact
+    ========================= */
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .contact-card,
+    .location-card {
+      padding: 30px;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      background-color: var(--cream);
+      box-shadow: var(--shadow);
+    }
+
+    .contact-card h3,
+    .location-card h3 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: var(--brown-dark);
+      font-size: 1.4rem;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 13px;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      background-color: var(--white);
+      text-decoration: none;
+      transition:
+        border-color 0.25s ease,
+        background-color 0.25s ease,
+        transform 0.25s ease;
+    }
+
+    .contact-link:hover {
+      border-color: var(--brown-light);
+      background-color: var(--beige-light);
+      transform: translateX(-4px);
+    }
+
+    html[dir="ltr"] .contact-link:hover {
+      transform: translateX(4px);
+    }
+
+    .contact-link i {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background-color: var(--brown-dark);
+      color: var(--beige-light);
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+    }
+
+    .contact-details strong {
+      color: var(--brown-dark);
+    }
+
+    .contact-details span {
+      color: var(--muted-color);
+      font-size: 0.88rem;
+    }
+
+    .contact-value {
+      direction: ltr;
+      unicode-bidi: plaintext;
+    }
+
+    /* =========================
+       Location
+    ========================= */
+
+    .map-placeholder {
+      min-height: 390px;
+      display: grid;
+      place-items: center;
+      padding: 30px;
+      border: 2px dashed var(--beige-dark);
+      border-radius: 12px;
+      background:
+        linear-gradient(
+          135deg,
+          var(--cream),
+          var(--beige-light)
+        );
+      color: var(--muted-color);
+      text-align: center;
+    }
+
+    .map-placeholder i {
+      display: block;
+      margin-bottom: 15px;
+      color: var(--brown-light);
+      font-size: 3.3rem;
+    }
+
+    .map-placeholder strong {
+      display: block;
+      color: var(--brown-dark);
+      font-size: 1.2rem;
+    }
+
+    .map-placeholder p {
+      max-width: 420px;
+      margin: 10px auto 0;
+    }
+
+    .map-frame {
+      width: 100%;
+      min-height: 390px;
+      border: 0;
+      border-radius: 12px;
+    }
+
+    /* =========================
+       Footer
+    ========================= */
+
+    .site-footer {
+      padding: 30px 0;
+      background-color: var(--brown-dark);
+      color: rgba(255, 255, 255, 0.92);
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .footer-content p {
+      margin: 0;
+    }
+
+    .back-to-top {
+      width: 43px;
+      height: 43px;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background-color: var(--beige-dark);
+      color: var(--brown-dark);
+      text-decoration: none;
+      transition:
+        background-color 0.25s ease,
+        transform 0.25s ease;
+    }
+
+    .back-to-top:hover {
+      background-color: var(--beige-light);
+      transform: translateY(-3px);
+    }
+
+    /* =========================
+       Tablet
+    ========================= */
+
+    @media (max-width: 980px) {
+      .header-content {
+        padding: 14px 0;
+        flex-direction: column;
+      }
+
+      .main-nav {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .hero-content {
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+
+      .hero-text {
+        text-align: center;
+      }
+
+      .hero-description {
+        margin-inline: auto;
+      }
+
+      .hero-actions {
+        justify-content: center;
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .contact-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* =========================
+       Mobile
+    ========================= */
+
+    @media (max-width: 600px) {
+      html {
+        scroll-padding-top: 20px;
+      }
+
+      .container {
+        width: min(100% - 22px, 1150px);
+      }
+
+      .site-header {
+        position: relative;
+      }
+
+      .header-content {
+        gap: 12px;
+      }
+
+      .brand {
+        text-align: center;
+      }
+
+      .main-nav {
+        width: 100%;
+        gap: 4px;
+      }
+
+      .main-nav a,
+      .language-button {
+        padding: 8px;
+        font-size: 0.82rem;
+      }
+
+      .language-button {
+        min-width: 75px;
+        margin-inline-start: 0;
+      }
+
+      .hero {
+        padding: 50px 0;
+      }
+
+      .lawyer-image-wrapper {
+        width: min(240px, 85%);
+      }
+
+      .section {
+        padding: 52px 0;
+      }
+
+      .about-card,
+      .contact-card,
+      .location-card {
+        padding: 21px;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container header-content">
+     
+        <span class="logo" aria-hidden="true">
+          <i class="fa-solid fa-scale-balanced"></i>
+        </span>
+
+        <h1 class="brand-name" id="site-title">
+          المحامي عامر محمد أحمد حمد
+        </h1>
+      </a>
+
+      <nav
+        class="main-nav"
+        id="main-navigation"
+        aria-label="التنقل الرئيسي"
+      >
+        
+
+        <button
+          class="language-button"
+          id="lang-toggle"
+          type="button"
+          aria-label="تغيير لغة الموقع إلى الإنجليزية"
+        >
+          English
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="lawyer-image-wrapper">
+          <img
+            class="lawyer-image"
+            id="lawyer-image"
+            src="lawyer.jpeg"
+            alt="صورة المحامي عامر محمد حمد"
+          >
+
+          <div
+            class="image-fallback"
+            id="image-fallback"
+            aria-hidden="true"
+          >
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+        </div>
+
+        <div class="hero-text">
+          <span class="hero-label" id="hero-label">
+            محامٍ نظامي وشرعي
+          </span>
+
+          <h2 id="hero-title">
+            حماية حقوقك تبدأ باستشارة قانونية صحيحة
+          </h2>
+
+          <p class="hero-description" id="hero-description">
+           ثلاثون عاماً من العطاء و الخبرة في تقديم خدمات قانونية متكاملة للأفراد والشركات، مع الحرص على
+            تقديم المشورة القانونية المناسبة ومتابعة القضايا
+            بمهنية واهتمام.
+          </p>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section-light" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="about-title">من أنا</h2>
+
+          
+        </div>
+
+        <div class="about-card">
+          <p id="about-text">
+            أنا المحامي عامر محمد حمد، محامٍ نظامي وشرعي أقدّم
+            خدمات قانونية متكاملة تشمل القضايا المدنية والجنائية
+            والشرعية، بالإضافة إلى صياغة العقود وتقديم الاستشارات
+            القانونية للأفراد والشركات. أسعى دائمًا إلى دراسة كل
+            قضية بعناية وتقديم حلول قانونية عملية تحمي حقوق موكلي
+            وتدافع عن مصالحهم.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-cream" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="services-title">الخدمات القانونية</h2>
+
+          <p id="services-intro">
+            خدمات قانونية متخصصة تهدف إلى حماية حقوق الأفراد
+            والشركات وتقديم حلول عملية تناسب كل قضية.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+
+            <h3 id="civil-title">القضايا المدنية</h3>
+
+            <p id="civil-description">
+              كافة المطالبات المالية - الدعاوي العقارية - إخلاء المأجور- منع المعارضة- منع المطالبة - إزالة الشيوع و القسمة القضائية - تأمين - حوادث سير....
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-gavel"></i>
+            </div>
+
+            <h3 id="criminal-title">القضايا الجزائية</h3>
+
+            <p id="criminal-description">
+              جنايات - جنح - مخالفات لدى كافة محاكم الصلح و البداية و الجنايات الكبرى و المحاكم الخاصة /محكمة أمن الدولة ....
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+
+            <h3 id="family-title">القضايا الشرعية</h3>
+
+            <p id="family-description">
+              كافة المطالبات المالية الشرعية -الزواج -الطلاق-الخلع -الإفتداء-النفقات- المهر المؤجل و المعجل- الحضانة و ما يتفرع عنها- اتفاقيات الإصلاح الأسري- معاملات الإرث و المواريث و تركات- كافة المعاملات و الحجج الشرعية لدى كافة المحاكم الشرعية مع اختلاف درجاتها....
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-file-signature"></i>
+            </div>
+
+            <h3 id="contracts-title">
+              العقود والاستشارات
+            </h3>
+
+            <p id="contracts-description">
+              صياغة كافة العقود المدنية- أفراد - شركات - عمل- وكالات - تصديق الوثائق و ترجمتها - عقود إيجار و بيع ....
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-light" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="contact-title">تواصل مع المكتب</h2>
+
+          <p id="contact-intro">
+            اختر وسيلة التواصل المناسبة لحجز استشارة أو لطلب
+            المزيد من المعلومات.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-card">
+            <h3 id="contact-methods-title">
+              بيانات التواصل
+            </h3>
+
+            <div class="contact-list">
+              <a href="https://wa.me/962795689315" target="_blank">
+                
+                <i class="fa-brands fa-whatsapp"></i> <span class="contact-details">
+                  <strong id="whatsapp-label">واتساب</strong>
+                  
+                  <span class="contact-value">
+                    +962795689315
+                  </span>
+                </span>
+              </a>
+
+                 <i class="fa-solid fa-phone"></i> <span class="contact-details">
+                  <strong id="phone-label">
+                    اتصال هاتفي
+                  </strong>
+
+                  <span class="contact-value">
+                    tel:+962 7 9568 9315
+                  </span>
+                </span>
+              </a>
+
+              <a
+                class="contact-link"
+                href="mailto:amerhamad75@gmail.com"
+              >
+                <i class="fa-solid fa-envelope"></i>
+
+                <span class="contact-details">
+                  <strong id="email-label">
+                    البريد الإلكتروني
+                  </strong>
+
+                  <span class="contact-value">
+                    amerhamad75@gmail.com
+                  </span>
+                </span>
+              </a>
+
+              <a
+                class="contact-link"
+                href="https://www.facebook.com/share/14oe27AHgU8/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+
+                <span class="contact-details">
+                  <strong id="facebook-label">
+                    فيسبوك
+                  </strong>
+
+                  <span id="facebook-description">
+                   صفحة المكتب
+                  </span>
+                </span>
+              </a>
+
+              <a
+                class="contact-link"
+                href="https://www.linkedin.com/in/amer-hamad-765a4a42"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+
+                <span class="contact-details">
+                  <strong id="linkedin-label">
+                    لينكدإن
+                  </strong>
+
+                  <span id="linkedin-description">
+                    الملف المهني
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="location-card">
+            <h3 id="location-title">موقع المكتب</h3>
+                <span class="contact-details">
+                    <span id="location-description">
+                    الأردن - عمان - شارع المدينة المنورة- مجمع هشام سلامة 1 - عمارة رقم 256- الطابق الرابع - مكتب رقم 411
+                  </span>
+                  </span>
+              <iframe
+                class="map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3383.665069378655!2d35.86927847563078!3d31.99709377399939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDU5JzQ5LjUiTiAzNcKwNTInMTguNyJF!5e0!3m2!1sen!2sjo!4v1789530590844!5m2!1sen!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                title="موقع مكتب المحامي عامر محمد حمد"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+              </iframe>
+            
+          </div>
+        </div>  
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>
+        © <span id="current-year"></span>
+        <span id="footer-text">
+          جميع الحقوق محفوظة للمحامي عامر محمد أحمد حمد
+        </span>
+      </p>
+
+     
+        
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    const translations = {
+      ar: {
+        pageTitle: "المحامي عامر محمد أحمد حمد",
+
+        pageDescription:
+          "الموقع الرسمي للمحامي عامر محمد حمد لتقديم الاستشارات والخدمات القانونية للأفراد والشركات.",
+
+        siteTitle: "المحامي عامر محمد أحمد حمد",
+
+        navHome: "الرئيسية",
+        navAbout: "من أنا",
+        navServices: "الخدمات",
+        navContact: "تواصل",
+
+        heroLabel: "محامٍ نظامي وشرعي",
+
+        heroTitle:
+          "حماية حقوقك تبدأ باستشارة قانونية صحيحة",
+
+        heroDescription:
+          "ثلاثون عاماً من العطاء و الخبرة في تقديم خدمات قانونية متكاملة للأفراد والشركات، مع الحرص على تقديم المشورة القانونية المناسبة ومتابعة القضايا بمهنية واهتمام.",
+
+        bookingText: "احجز استشارة",
+        servicesButtonText: "تعرف على الخدمات",
+
+        aboutTitle: "من أنا",
+
+        aboutIntro:
+          "الخبرة القانونية والمهنية في خدمة حقوق الموكلين.",
+
+        aboutText:
+          "أنا المحامي عامر محمد حمد، محامٍ نظامي وشرعي أقدّم خدمات قانونية متكاملة تشمل القضايا المدنية والجنائية والشرعية، بالإضافة إلى صياغة العقود وتقديم الاستشارات القانونية للأفراد والشركات. أسعى دائمًا إلى دراسة كل قضية بعناية وتقديم حلول قانونية عملية تحمي حقوق موكلي وتدافع عن مصالحهم.",
+
+        servicesTitle: "الخدمات القانونية",
+
+        servicesIntro:
+          "خدمات قانونية متخصصة تهدف إلى حماية حقوق الأفراد والشركات وتقديم حلول عملية تناسب كل قضية.",
+
+        civilTitle: "القضايا المدنية",
+
+        civilDescription:
+          "كافة المطالبات المالية - الدعاوي العقارية - إخلاء المأجور- منع المعارضة- منع المطالبة - إزالة الشيوع و القسمة القضائية - تأمين - حوادث سير....",
+
+        criminalTitle: "القضايا الجزائية",
+
+        criminalDescription:
+          "جنايات - جنح - مخالفات لدى كافة محاكم الصلح و البداية و الجنايات الكبرى و المحاكم الخاصة /محكمة أمن الدولة ....",
+
+        familyTitle: "القضايا الشرعية",
+
+        familyDescription:
+          "كافة المطالبات المالية الشرعية -الزواج -الطلاق-الخلع -الإفتداء-النفقات- المهر المؤجل و المعجل- الحضانة و ما يتفرع عنها- اتفاقيات الإصلاح الأسري- معاملات الإرث و المواريث و تركات- كافة المعاملات و الحجج الشرعية لدى كافة المحاكم الشرعية مع اختلاف درجاتها....",
+
+        contractsTitle: "العقود والاستشارات",
+
+        contractsDescription:
+          "صياغة كافة العقود المدنية- أفراد - شركات - عمل- وكالات - تصديق الوثائق و ترجمتها - عقود إيجار و بيع ....",
+
+        contactTitle: "تواصل مع المكتب",
+
+        contactIntro:
+          "اختر وسيلة التواصل المناسبة لحجز استشارة أو لطلب المزيد من المعلومات.",
+
+        contactMethodsTitle: "بيانات التواصل",
+
+        whatsappLabel: "واتساب",
+        phoneLabel: "اتصال هاتفي",
+        emailLabel: "البريد الإلكتروني",
+        facebookLabel: "فيسبوك",
+        facebookDescription: "صفحة المكتب",
+        linkedinLabel: "لينكدإن",
+        linkedinDescription: "الملف المهني",
+
+        locationTitle: "موقع المكتب",
+		locationdescription:"الأردن - عمان - شارع المدينة المنورة- مجمع هشام سلامة 1 - عمارة رقم 256- الطابق الرابع - مكتب رقم 411",
+
+        mapMessageTitle:
+          "أضف موقع المكتب هنا",
+
+        mapMessage:
+          "استخدم رابط التضمين من خرائط Google لعرض موقع المكتب داخل الصفحة.",
+
+        footerText:
+          "جميع الحقوق محفوظة للمحامي عامر محمد أحمد حمد",
+
+        languageButton: "English",
+
+        languageButtonAria:
+          "تغيير لغة الموقع إلى الإنجليزية",
+
+        navigationAria: "التنقل الرئيسي",
+
+        brandAria:
+          "العودة إلى الصفحة الرئيسية",
+
+        backToTopAria:
+          "العودة إلى أعلى الصفحة",
+
+        imageAlt:
+          "صورة المحامي عامر محمد حمد",
+
+        direction: "rtl",
+        language: "ar"
+      },
+
+      en: {
+        pageTitle: "Lawyer Amer Mohammad Ahmad Hamad",
+
+        pageDescription:
+          "The official website of Lawyer Amer Mohammad Ahmad Hamad, providing legal consultations and services for individuals and businesses.",
+
+        siteTitle: "Lawyer Amer Mohammad Ahmad Hamad",
+
+        navHome: "Home",
+        navAbout: "About",
+        navServices: "Services",
+        navContact: "Contact",
+
+        heroLabel: "Civil and Sharia Lawyer",
+
+        heroTitle:
+          "Protecting your rights starts with proper legal advice",
+
+        heroDescription:
+          "Thirty years of dedication and experience in providing Comprehensive legal services for individuals and businesses, with careful attention to providing appropriate legal advice and professional case follow-up.",
+
+        bookingText: "Book a Consultation",
+        servicesButtonText: "View Our Services",
+
+        aboutTitle: "About Me",
+
+        aboutIntro:
+          "Legal experience and professional service dedicated to protecting clients' rights.",
+
+        aboutText:
+          "I am Lawyer Amer Mohammad Hamad, a civil and Sharia lawyer providing comprehensive legal services in civil, criminal, and family law cases. I also provide contract drafting and legal consultations for individuals and businesses. I carefully review every case and work to provide practical legal solutions that protect my clients' rights and interests.",
+
+        servicesTitle: "Legal Services",
+
+        servicesIntro:
+          "Specialized legal services aimed at protecting the rights of individuals and companies and providing practical solutions that suit each case.",
+
+        civilTitle: "Civil Cases",
+
+        civilDescription:
+          "Legal representation and case follow-up in civil disputes, claims, and civil rights matters.",
+
+        criminalTitle: "Criminal Cases",
+
+        criminalDescription:
+          "Felonies - Misdemeanors - Violations before all Magistrates' Courts, Courts of First Instance, Major Felonies Courts, and Special Courts / State Security Court...",
+
+        familyTitle: "Family and Sharia Cases",
+
+        familyDescription:
+          "All legitimate financial claims - marriage - divorce - khula - redemption - maintenance - deferred and immediate dowry - custody and related matters - family reconciliation agreements - inheritance and estate transactions - all legal transactions and arguments before all Sharia courts at all levels....",
+
+        contractsTitle: "Contracts and Consultations",
+
+        contractsDescription:
+          "Drafting all types of civil contracts - individuals, companies, employment, agencies - document authentication and translation - lease and sale contracts...",
+
+        contactTitle: "Contact the Office",
+
+        contactIntro:
+          "Choose your preferred contact method to book a consultation or request more information.",
+
+        contactMethodsTitle: "Contact Information",
+
+        whatsappLabel: "WhatsApp",
+        phoneLabel: "Phone",
+        emailLabel: "Email",
+        facebookLabel: "Facebook",
+        facebookDescription: "Office Page",
+        linkedinLabel: "LinkedIn",
+        linkedinDescription: "Professional Profile",
+
+        locationTitle: "Office Location",
+		
+		locationdescription: "Jordan - Amman - Madinah Al Munawarah Street - Hisham Salameh Complex 1 - Building No. 256 - Fourth Floor - Office No. 411",
+
+        mapMessageTitle:
+          "Add the Office Location Here",
+
+        mapMessage:
+          "Use the Google Maps embed link to display the office location on this page.",
+
+        footerText:
+          "All rights reserved to Lawyer Amer Mohammad Ahmad Hamad",
+
+        languageButton: "عربي",
+
+        languageButtonAria:
+          "Change the website language to Arabic",
+
+        navigationAria: "Main navigation",
+
+        brandAria:
+          "Return to the home section",
+
+        backToTopAria:
+          "Return to the top of the page",
+
+        imageAlt:
+          "Lawyer Amer Mohammad Hamad",
+
+        direction: "ltr",
+        language: "en"
+      }
+    };
+
+    const elementIds = {
+      siteTitle: "site-title",
+      navHome: "nav-home",
+      navAbout: "nav-about",
+      navServices: "nav-services",
+      navContact: "nav-contact",
+
+      heroLabel: "hero-label",
+      heroTitle: "hero-title",
+      heroDescription: "hero-description",
+
+      bookingText: "booking-text",
+      servicesButtonText: "services-button-text",
+
+      aboutTitle: "about-title",
+      aboutIntro: "about-intro",
+      aboutText: "about-text",
+
+      servicesTitle: "services-title",
+      servicesIntro: "services-intro",
+
+      civilTitle: "civil-title",
+      civilDescription: "civil-description",
+
+      criminalTitle: "criminal-title",
+      criminalDescription: "criminal-description",
+
+      familyTitle: "family-title",
+      familyDescription: "family-description",
+
+      contractsTitle: "contracts-title",
+      contractsDescription: "contracts-description",
+
+      contactTitle: "contact-title",
+      contactIntro: "contact-intro",
+      contactMethodsTitle: "contact-methods-title",
+
+      whatsappLabel: "whatsapp-label",
+      phoneLabel: "phone-label",
+      emailLabel: "email-label",
+
+      facebookLabel: "facebook-label",
+      facebookDescription: "facebook-description",
+
+      linkedinLabel: "linkedin-label",
+      linkedinDescription: "linkedin-description",
+
+      locationTitle: "location-title",
+	  locationdescription: "location-description",
+      mapMessageTitle: "map-message-title",
+      mapMessage: "map-message",
+
+      footerText: "footer-text"
+    };
+
+    const languageButton =
+      document.getElementById("lang-toggle");
+
+    const pageDescription =
+      document.getElementById("page-description");
+
+    const mainNavigation =
+      document.getElementById("main-navigation");
+
+    const brandLink =
+      document.getElementById("brand-link");
+
+    const backToTop =
+      document.getElementById("back-to-top");
+
+    const lawyerImage =
+      document.getElementById("lawyer-image");
+
+    const imageFallback =
+      document.getElementById("image-fallback");
+
+    const currentYear =
+      document.getElementById("current-year");
+
+    let currentLanguage =
+      localStorage.getItem("websiteLanguage") || "ar";
+
+    if (!translations[currentLanguage]) {
+      currentLanguage = "ar";
+    }
+
+    function applyLanguage(language) {
+      const text = translations[language];
+
+      document.body.classList.add("language-changing");
+
+      window.setTimeout(() => {
+        document.documentElement.lang = text.language;
+        document.documentElement.dir = text.direction;
+
+        document.title = text.pageTitle;
+
+        pageDescription.setAttribute(
+          "content",
+          text.pageDescription
+        );
+
+        Object.entries(elementIds).forEach(
+          ([translationKey, elementId]) => {
+            const element =
+              document.getElementById(elementId);
+
+            if (
+              element &&
+              text[translationKey] !== undefined
+            ) {
+              element.textContent =
+                text[translationKey];
+            }
+          }
+        );
+
+        languageButton.textContent =
+          text.languageButton;
+
+        languageButton.setAttribute(
+          "aria-label",
+          text.languageButtonAria
+        );
+
+        mainNavigation.setAttribute(
+          "aria-label",
+          text.navigationAria
+        );
+
+        brandLink.setAttribute(
+          "aria-label",
+          text.brandAria
+        );
+
+        backToTop.setAttribute(
+          "aria-label",
+          text.backToTopAria
+        );
+
+        lawyerImage.alt = text.imageAlt;
+
+        localStorage.setItem(
+          "websiteLanguage",
+          language
+        );
+
+        document.body.classList.remove(
+          "language-changing"
+        );
+      }, 150);
+    }
+
+    languageButton.addEventListener(
+      "click",
+      function () {
+        currentLanguage =
+          currentLanguage === "ar" ? "en" : "ar";
+
+        applyLanguage(currentLanguage);
+      }
+    );
+
+    lawyerImage.addEventListener(
+      "error",
+      function () {
+        lawyerImage.style.display = "none";
+        imageFallback.style.display = "grid";
+      }
+    );
+
+    currentYear.textContent =
+      new Date().getFullYear();
+
+    applyLanguage(currentLanguage);
+  </script>
+</body>
+</html>
